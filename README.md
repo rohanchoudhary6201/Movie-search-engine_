@@ -4,6 +4,7 @@ A responsive Movie Search Engine website built with HTML, CSS, and JavaScript. U
 
 ## 🚀 Live Demo
 🔗 https://rohanchoudhary6201.github.io/Movie-search-engine_/
+open this link in microsoft edge, crome doesn't support tmdb api.
 
 > **Note:** The live demo currently works best in Microsoft Edge. I am working on improving compatibility with Google Chrome.
 
