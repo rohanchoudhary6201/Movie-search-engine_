@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieVerse</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    
+    <nav class="navbar">
+
+        <div class="logo">
+            🎬 MovieVerse
+        </div>
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search any movie...">
+
+            <button id="searchBtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </div>
+
+    </nav>
+
+
+    
+    <section class="hero">
+
+        <h1>Unlimited Movies</h1>
+
+        <p>
+            Search any movies and watch trailers instantly.
+        </p>
+
+    </section>
+
+
+    
+    <section class="section">
+
+        <h2>🔥 Trending Movies</h2>
+
+        <div id="trendingMovies" class="movie-container">
+
+        </div>
+
+    </section>
+
+
+    
+    <section class="section">
+
+        <h2>🎥 Search Results</h2>
+
+        <div id="movieResults" class="movie-container">
+
+        </div>
+
+    </section>
+
+
+
+    
+
+    <div class="popup" id="popup">
+
+        <div class="popup-content">
+
+            <span id="closePopup">&times;</span>
+
+            <img id="popupPoster">
+
+            <div class="popup-info">
+
+                <h2 id="popupTitle"></h2>
+
+                <p id="popupRating"></p>
+
+                <p id="popupRelease"></p>
+
+                <p id="popupOverview"></p>
+
+                <div class="buttons">
+
+                    <button id="trailerBtn">
+                        ▶ Watch Trailer
+                    </button>
+
+                    <button id="downloadBtn">
+                        ⬇ Download
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    
+
+    <footer>
+
+        <h3>MovieVerse</h3>
+
+        <p>
+            Search • Discover • Watch Trailers
+        </p>
+
+        <p class="copyright">
+            © 2026 MovieVerse. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
